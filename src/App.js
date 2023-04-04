@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+import CartContainer from "./components/CartContainer";
+
 function App() {
   return (
     <div className="App">
-      <h1>React Toolkit</h1>
+      <Navbar />
+      <CartContainer />
     </div>
   );
 }
